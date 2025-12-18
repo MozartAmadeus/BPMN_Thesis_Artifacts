@@ -1,0 +1,35 @@
+# AnonLevel: None
+
+🌟 Best Model Features:
+  - HasErrors
+  - Tasks
+  - Events
+  - AND_(Split)
+  - AND_(Join)
+
+📉 Removed Features History:
+  - SequenceFlows: 12.4743
+  - XOR_(Split): 12.7323
+  - XOR_(Join): 12.9299
+
+📊 Final Feature Weights:
+  - HasErrors: 13.4598
+  - Tasks: 13.1425
+  - Events: 13.4910
+  - AND_(Split): 13.2017
+  - AND_(Join): 13.1618
+
+📈 R² per Target:
+  - Grade: 0.2929
+  - QU1: 0.3002
+  - QU2: 0.2976
+  - QU3: 0.2873
+
+📉 RMSE per Target:
+  - Grade: 0.2500
+  - QU1: 0.2500
+  - QU2: 0.2496
+  - QU3: 0.2489
+
+🏆 Final R²: 0.1318
+📉 Final RMSE: 0.2526

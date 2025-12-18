@@ -1,0 +1,53 @@
+# AnonLevel: Anon2
+
+🌟 Best Model Features:
+  - HasErrors
+  - Events
+  - SequenceFlows
+  - XOR_(Split)
+  - XOR_(Join)
+  - AND_(Split)
+  - AND_(Join)
+  - task_fitness
+  - task_precision
+  - event_fitness
+  - event_precision
+  - gatewayContent_precision
+  - flow_fitness
+
+📉 Removed Features History:
+  - Tasks: 12.0087
+  - gatewayContent_fitness: 12.2465
+  - flow_precision: 12.0667
+  - gatewayPositioning_precision: 12.2035
+  - gatewayPositioning_fitness: 12.1375
+
+📊 Final Feature Weights:
+  - HasErrors: 13.3216
+  - Events: 13.2257
+  - SequenceFlows: 12.6390
+  - XOR_(Split): 12.7022
+  - XOR_(Join): 12.7627
+  - AND_(Split): 12.8966
+  - AND_(Join): 12.4783
+  - task_fitness: 12.5226
+  - task_precision: 12.6516
+  - event_fitness: 12.7590
+  - event_precision: 13.1999
+  - gatewayContent_precision: 12.6340
+  - flow_fitness: 13.0835
+
+📈 R² per Target:
+  - Grade: 0.3336
+  - QU1: 0.3476
+  - QU2: 0.4217
+  - QU3: 0.4743
+
+📉 RMSE per Target:
+  - Grade: 0.2083
+  - QU1: 0.1931
+  - QU2: 0.1960
+  - QU3: 0.1653
+
+🏆 Final R²: 0.0529
+📉 Final RMSE: 0.2485

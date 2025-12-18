@@ -1,0 +1,73 @@
+
+📦 EM AnonLevel: None
+
+🌟 Best Model Features:
+  - HasErrors
+  - Tasks
+  - Events
+  - SequenceFlows
+  - XOR_(Split)
+  - XOR_(Join)
+  - AND_(Split)
+  - AND_(Join)
+  - Words
+  - Extraneous_Words
+  - Irrelevant_Information
+  - Sentences
+  - Content_Words
+  - Syllables
+  - PDMXOR
+  - PDMAND
+  - PDMTasks
+  - Correctness
+  - HasMissingGateways
+  - Words_per_Sentence
+  - Irrelevant_Information_score
+  - Extraneous_Words_Score
+  - Content_Words_Score
+  - Words_per_Task
+  - HasMissingTasks
+
+📉 Removed Features History:
+
+📊 Final Feature Weights:
+  - HasErrors: 12.8058
+  - Tasks: 11.9086
+  - Events: 12.8431
+  - SequenceFlows: 12.4013
+  - XOR_(Split): 12.1296
+  - XOR_(Join): 12.2569
+  - AND_(Split): 12.6353
+  - AND_(Join): 12.1696
+  - Words: 12.6767
+  - Extraneous_Words: 12.1122
+  - Irrelevant_Information: 12.2976
+  - Sentences: 11.9651
+  - Content_Words: 12.2438
+  - Syllables: 12.2575
+  - PDMXOR: 11.8896
+  - PDMAND: 12.4026
+  - PDMTasks: 11.9320
+  - Correctness: 12.4645
+  - HasMissingGateways: 12.6923
+  - Words_per_Sentence: 12.0116
+  - Irrelevant_Information_score: 12.0401
+  - Extraneous_Words_Score: 12.0502
+  - Content_Words_Score: 11.8588
+  - Words_per_Task: 12.6325
+  - HasMissingTasks: 12.4351
+
+📊 R² per Target:
+  - Grade: 0.3915
+  - QU1: 0.3457
+  - QU2: 0.3629
+  - QU3: 0.3268
+
+📉 RMSE per Target:
+  - Grade: 0.2310
+  - QU1: 0.2315
+  - QU2: 0.2354
+  - QU3: 0.2269
+
+🏆 Final R²: 0.0581
+📉 Final RMSE: 0.2621

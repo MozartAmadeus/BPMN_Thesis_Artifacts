@@ -1,0 +1,75 @@
+📦 Anonymization Comparison: Anon1 → Anon2 | FULL
+
+🔍 Output Metrics (OM):
+📊 Per-Metric Changes:
+- Events:
+    • MeanAbs: 0.0972
+    • MeanRel: 0.0370
+    • MSD: 0.0694
+    • CohenD: 0.1673
+- Tasks:
+    • MeanAbs: 1.6042
+    • MeanRel: 0.0565
+    • MSD: 0.3819
+    • CohenD: 0.0832
+- SequenceFlows:
+    • MeanAbs: 2.6597
+    • MeanRel: 0.0513
+    • MSD: 0.5625
+    • CohenD: 0.0862
+- XOR_(Join):
+    • MeanAbs: 0.2986
+    • MeanRel: 0.0746
+    • MSD: -0.0347
+    • CohenD: -0.0434
+- XOR_(Split):
+    • MeanAbs: 0.2639
+    • MeanRel: 0.0563
+    • MSD: -0.0278
+    • CohenD: -0.0343
+- AND_(Split):
+    • MeanAbs: 0.1875
+    • MeanRel: 0.6842
+    • MSD: 0.0903
+    • CohenD: 0.2015
+- AND_(Join):
+    • MeanAbs: 0.2083
+    • MeanRel: 0.4167
+    • MSD: 0.0694
+    • CohenD: 0.1468
+
+📈 Summary Statistics Across Metrics:
+- MeanAbs: 0.7599
+- MeanRel: 0.1967
+- MSD: 0.1587
+- CohenD: 0.0868
+
+
+🧠 Expert Metrics (EM):
+📊 Per-Metric Changes:
+- Grade:
+    • MeanAbs: 0.6528
+    • MeanRel: 0.0875
+    • MSD: -0.2083
+    • CohenD: -0.1470
+- QU1:
+    • MeanAbs: 0.5301
+    • MeanRel: 0.0795
+    • MSD: -0.1505
+    • CohenD: -0.1593
+- QU2:
+    • MeanAbs: 0.6343
+    • MeanRel: 0.0903
+    • MSD: -0.2083
+    • CohenD: -0.1460
+- QU3:
+    • MeanAbs: 0.6644
+    • MeanRel: 0.0710
+    • MSD: -0.1551
+    • CohenD: -0.1179
+
+📈 Summary Statistics Across Metrics:
+- MeanAbs: 0.6204
+- MeanRel: 0.0821
+- MSD: -0.1806
+- CohenD: -0.1426

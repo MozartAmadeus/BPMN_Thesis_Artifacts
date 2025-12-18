@@ -1,0 +1,25 @@
+# Ignore Python virtual environments
+venv/
+venv_tf/
+.env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore TensorFlow and large binary files
+*.dll
+*.so
+*.dylib
+*.pdb
+*.exe
+
+# Ignore build outputs
+out/
+build/
+
+# Ignore IntelliJ and system files
+.idea/
+.DS_Store

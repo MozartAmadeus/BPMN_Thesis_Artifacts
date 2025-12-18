@@ -1,0 +1,96 @@
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="Process_1" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+
+    <bpmn:task id="Task_1" name="Eigene Auswertung A erstellen">
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:task>
+
+    <bpmn:task id="Task_2" name="C flach in D ablegen (z.B. E direkt im F)">
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:task>
+
+    <bpmn:task id="Task_3" name="Ausgabe G auf lokalem H Zentral I starten">
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:task>
+
+    <bpmn:task id="Task_4" name="Alle C ausgeben (keine J)">
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+    </bpmn:task>
+
+    <bpmn:task id="Task_5" name="Allgemeine K nur am L I ausgeben">
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_6</bpmn:outgoing>
+    </bpmn:task>
+
+    <bpmn:parallelGateway id="AND_1">
+      <bpmn:incoming>Flow_6</bpmn:incoming>
+      <bpmn:outgoing>Flow_7</bpmn:outgoing>
+      <bpmn:outgoing>Flow_8</bpmn:outgoing>
+      <bpmn:outgoing>Flow_9</bpmn:outgoing>
+      <bpmn:outgoing>Flow_10</bpmn:outgoing>
+      <bpmn:outgoing>Flow_11</bpmn:outgoing>
+      <bpmn:outgoing>Flow_12</bpmn:outgoing>
+      <bpmn:outgoing>Flow_13</bpmn:outgoing>
+    </bpmn:parallelGateway>
+
+    <bpmn:task id="Task_6" name="M"/>
+    <bpmn:task id="Task_7" name="N"/>
+    <bpmn:task id="Task_8" name="O"/>
+    <bpmn:task id="Task_9" name="P"/>
+    <bpmn:task id="Task_10" name="Q"/>
+    <bpmn:task id="Task_11" name="R"/>
+    <bpmn:task id="Task_12" name="S (S1, S2, S3) – alle vom laufenden und vom T"/>
+
+    <bpmn:sequenceFlow id="Flow_7" sourceRef="AND_1" targetRef="Task_6"/>
+    <bpmn:sequenceFlow id="Flow_8" sourceRef="AND_1" targetRef="Task_7"/>
+    <bpmn:sequenceFlow id="Flow_9" sourceRef="AND_1" targetRef="Task_8"/>
+    <bpmn:sequenceFlow id="Flow_10" sourceRef="AND_1" targetRef="Task_9"/>
+    <bpmn:sequenceFlow id="Flow_11" sourceRef="AND_1" targetRef="Task_10"/>
+    <bpmn:sequenceFlow id="Flow_12" sourceRef="AND_1" targetRef="Task_11"/>
+    <bpmn:sequenceFlow id="Flow_13" sourceRef="AND_1" targetRef="Task_12"/>
+
+    <bpmn:parallelGateway id="AND_2">
+      <bpmn:incoming>Flow_14</bpmn:incoming>
+      <bpmn:incoming>Flow_15</bpmn:incoming>
+      <bpmn:incoming>Flow_16</bpmn:incoming>
+      <bpmn:incoming>Flow_17</bpmn:incoming>
+      <bpmn:incoming>Flow_18</bpmn:incoming>
+      <bpmn:incoming>Flow_19</bpmn:incoming>
+      <bpmn:incoming>Flow_20</bpmn:incoming>
+      <bpmn:outgoing>Flow_21</bpmn:outgoing>
+    </bpmn:parallelGateway>
+
+    <bpmn:sequenceFlow id="Flow_14" sourceRef="Task_6" targetRef="AND_2"/>
+    <bpmn:sequenceFlow id="Flow_15" sourceRef="Task_7" targetRef="AND_2"/>
+    <bpmn:sequenceFlow id="Flow_16" sourceRef="Task_8" targetRef="AND_2"/>
+    <bpmn:sequenceFlow id="Flow_17" sourceRef="Task_9" targetRef="AND_2"/>
+    <bpmn:sequenceFlow id="Flow_18" sourceRef="Task_10" targetRef="AND_2"/>
+    <bpmn:sequenceFlow id="Flow_19" sourceRef="Task_11" targetRef="AND_2"/>
+    <bpmn:sequenceFlow id="Flow_20" sourceRef="Task_12" targetRef="AND_2"/>
+
+    <bpmn:task id="Task_13" name="Eingabe G für Bereich U1, U2 → C komplett neu bearbeiten">
+      <bpmn:incoming>Flow_21</bpmn:incoming>
+      <bpmn:outgoing>Flow_22</bpmn:outgoing>
+    </bpmn:task>
+
+    <bpmn:endEvent id="EndEvent_1">
+      <bpmn:incoming>Flow_22</bpmn:incoming>
+    </bpmn:endEvent>
+
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="StartEvent_1" targetRef="Task_1"/>
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Task_1" targetRef="Task_2"/>
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Task_2" targetRef="Task_3"/>
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Task_3" targetRef="Task_4"/>
+    <bpmn:sequenceFlow id="Flow_5" sourceRef="Task_4" targetRef="Task_5"/>
+    <bpmn:sequenceFlow id="Flow_6" sourceRef="Task_5" targetRef="AND_1"/>
+    <bpmn:sequenceFlow id="Flow_21" sourceRef="AND_2" targetRef="Task_13"/>
+    <bpmn:sequenceFlow id="Flow_22" sourceRef="Task_13" targetRef="EndEvent_1"/>
+  </bpmn:process>
+<bpmndi:BPMNDiagram xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"><bpmndi:BPMNPlane bpmnElement="Process_1"><bpmndi:BPMNShape bpmnElement="StartEvent_1"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="150" y="250" width="80" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_1"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="300" y="250" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_2"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="450" y="250" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_3"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="600" y="250" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_4"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="750" y="250" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_5"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="900" y="250" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="AND_1"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1050" y="250" width="80" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_6"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1200" y="41.666666666666686" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_7"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1200" y="125.00000000000003" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_8"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1200" y="208.33333333333337" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_9"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1200" y="250" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_10"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1200" y="291.6666666666667" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_11"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1200" y="375" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="Task_12"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1200" y="458.33333333333337" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="Flow_7"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1130" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1200" y="81.66666666666669"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_8"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1130" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1200" y="165.00000000000003"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_9"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1130" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1200" y="248.33333333333337"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_10"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1130" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1200" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_11"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1130" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1200" y="331.6666666666667"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_12"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1130" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1200" y="415"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_13"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1130" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1200" y="498.33333333333337"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="AND_2"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1350" y="250" width="80" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="Flow_14"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1300" y="81.66666666666669"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1350" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_15"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1300" y="165.00000000000003"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1350" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_16"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1300" y="248.33333333333337"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1350" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_17"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1300" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1350" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_18"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1300" y="331.6666666666667"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1350" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_19"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1300" y="415"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1350" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_20"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1300" y="498.33333333333337"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1350" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNShape bpmnElement="Task_13"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1500" y="250" width="100" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNShape bpmnElement="EndEvent_1"><dc:Bounds xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" x="1650" y="250" width="80" height="80"/></bpmndi:BPMNShape><bpmndi:BPMNEdge bpmnElement="Flow_1"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="230" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="300" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_2"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="400" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="450" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_3"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="550" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="600" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_4"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="700" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="750" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_5"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="850" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="900" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_6"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1000" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1050" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_21"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1430" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1500" y="290"/></bpmndi:BPMNEdge><bpmndi:BPMNEdge bpmnElement="Flow_22"><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1600" y="290"/><di:waypoint xmlns:di="http://www.omg.org/spec/DD/20100524/DI" x="1650" y="290"/></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></bpmn:definitions>

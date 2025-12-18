@@ -1,0 +1,90 @@
+📦 Anonymization Comparison: Anon1 → Anon2 | FULL
+
+🔍 Output Metrics (OM):
+📊 Per-Metric Changes:
+- gatewayPositioning_fitness:
+    • MeanAbs: 0.0758
+    • MeanRel: 0.0060
+    • MSD: 0.0041
+    • CohenD: 0.0090
+- gatewayContent_precision:
+    • MeanAbs: 0.1402
+    • MeanRel: 0.0941
+    • MSD: 0.0490
+    • CohenD: 0.1016
+- task_precision:
+    • MeanAbs: 0.0762
+    • MeanRel: 0.1174
+    • MSD: -0.0089
+    • CohenD: -0.0598
+- event_precision:
+    • MeanAbs: 0.0486
+    • MeanRel: 0.0370
+    • MSD: 0.0347
+    • CohenD: 0.1673
+- event_fitness:
+    • MeanAbs: 0.0486
+    • MeanRel: 0.0370
+    • MSD: 0.0347
+    • CohenD: 0.1673
+- flow_fitness:
+    • MeanAbs: 0.0220
+    • MeanRel: 0.2936
+    • MSD: -0.0081
+    • CohenD: -0.1050
+- gatewayPositioning_precision:
+    • MeanAbs: 0.2036
+    • MeanRel: 0.0977
+    • MSD: 0.0476
+    • CohenD: 0.1005
+- task_fitness:
+    • MeanAbs: 0.0359
+    • MeanRel: 0.2994
+    • MSD: -0.0158
+    • CohenD: -0.1113
+- flow_precision:
+    • MeanAbs: 0.0318
+    • MeanRel: 0.4110
+    • MSD: -0.0143
+    • CohenD: -0.1818
+- gatewayContent_fitness:
+    • MeanAbs: 0.0278
+    • MeanRel: 0.0077
+    • MSD: -0.0035
+    • CohenD: -0.0071
+
+📈 Summary Statistics Across Metrics:
+- MeanAbs: 0.0711
+- MeanRel: 0.1401
+- MSD: 0.0119
+- CohenD: 0.0081
+
+
+🧠 Expert Metrics (EM):
+📊 Per-Metric Changes:
+- Grade:
+    • MeanAbs: 0.6528
+    • MeanRel: 0.0875
+    • MSD: -0.2083
+    • CohenD: -0.1470
+- QU1:
+    • MeanAbs: 0.5301
+    • MeanRel: 0.0795
+    • MSD: -0.1505
+    • CohenD: -0.1593
+- QU2:
+    • MeanAbs: 0.6343
+    • MeanRel: 0.0903
+    • MSD: -0.2083
+    • CohenD: -0.1460
+- QU3:
+    • MeanAbs: 0.6644
+    • MeanRel: 0.0710
+    • MSD: -0.1551
+    • CohenD: -0.1179
+
+📈 Summary Statistics Across Metrics:
+- MeanAbs: 0.6204
+- MeanRel: 0.0821
+- MSD: -0.1806
+- CohenD: -0.1426

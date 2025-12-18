@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" 
+        xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" 
+        xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1q4o25e" 
+        targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.20.0" 
+        modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.4.0">
+      <bpmn:process id="Process_1">
+        <bpmn:startEvent id="startEvent_1" name="Online Access to Processed D-Class or E-Value"></bpmn:startEvent> 
+
+        <bpmn:task id="task_2" name="Process Base Class under H" />
+<bpmn:task id="task_3" name="Translate Name of D-Class" />
+<bpmn:task id="task_4" name="Process J Base Class of K with Translated Name" />
+<bpmn:exclusiveGateway id="xor_5" name="If D-Class needs to process L"> </bpmn:exclusiveGateway>
+<bpmn:task id="task_6" name="Process L in Base Class M and at least N" />
+<bpmn:task id="task_7" name="Override using O-File" />
+<bpmn:exclusiveGateway id="xor_9" > </bpmn:exclusiveGateway>
+<bpmn:task id="task_10" name="Process Property Q in P" />
+<bpmn:task id="task_11" name="Process New R via Tag" />
+<bpmn:task id="task_12" name="Process ReadonlyField S for Attribute I.T in U" />
+<bpmn:task id="task_13" name="Process Shared ReadonlyField V in W" />
+
+        <bpmn:endEvent id="endEvent_14" name="Pattern Applied Successfully"></bpmn:endEvent> 
+
+        <bpmn:sequenceFlow id="Flow_startEvent_1_task_2" sourceRef="startEvent_1" targetRef="task_2" /> 
+<bpmn:sequenceFlow id="Flow_task_2_task_3" sourceRef="task_2" targetRef="task_3" /> 
+<bpmn:sequenceFlow id="Flow_task_3_task_4" sourceRef="task_3" targetRef="task_4" /> 
+<bpmn:sequenceFlow id="Flow_task_4_xor_5" sourceRef="task_4" targetRef="xor_5" /> 
+<bpmn:sequenceFlow id="Flow_xor_5_task_6" sourceRef="xor_5" targetRef="task_6" name="Yes" /> 
+<bpmn:sequenceFlow id="Flow_task_6_task_7" sourceRef="task_6" targetRef="task_7" /> 
+<bpmn:sequenceFlow id="Flow_task_7_xor_9" sourceRef="task_7" targetRef="xor_9" /> 
+<bpmn:sequenceFlow id="Flow_xor_5_xor_9" sourceRef="xor_5" targetRef="xor_9" name="No" /> 
+<bpmn:sequenceFlow id="Flow_xor_9_task_10" sourceRef="xor_9" targetRef="task_10" /> 
+<bpmn:sequenceFlow id="Flow_task_10_task_11" sourceRef="task_10" targetRef="task_11" /> 
+<bpmn:sequenceFlow id="Flow_task_11_task_12" sourceRef="task_11" targetRef="task_12" /> 
+<bpmn:sequenceFlow id="Flow_task_12_task_13" sourceRef="task_12" targetRef="task_13" /> 
+<bpmn:sequenceFlow id="Flow_task_13_endEvent_14" sourceRef="task_13" targetRef="endEvent_14" /> 
+
+      </bpmn:process> 
+      <bpmndi:BPMNDiagram id="BPMNDiagram_1"> 
+        <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1"> 
+        
+    <bpmndi:BPMNShape id="_BPMNShape_startEvent_1" bpmnElement="startEvent_1"> 
+        <dc:Bounds x="200" y="82" width="36" height="36" /> 
+        <bpmndi:BPMNLabel></bpmndi:BPMNLabel> 
+    </bpmndi:BPMNShape> 
+
+        <bpmndi:BPMNShape id="Shape_task_2" bpmnElement="task_2" >
+                <dc:Bounds x="291" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_task_3" bpmnElement="task_3" >
+                <dc:Bounds x="446" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_task_4" bpmnElement="task_4" >
+                <dc:Bounds x="601" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_xor_5" bpmnElement="xor_5" isMarkerVisible="true">
+                <dc:Bounds x="756" y="82" width="36" height="36" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_task_6" bpmnElement="task_6" >
+                <dc:Bounds x="902" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_task_7" bpmnElement="task_7" >
+                <dc:Bounds x="1057" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_empty_8" bpmnElement="empty_8" >
+                <dc:Bounds x="902" y="232" width="36" height="36" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_xor_9" bpmnElement="xor_9" isMarkerVisible="true">
+                <dc:Bounds x="1212" y="82" width="36" height="36" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_task_10" bpmnElement="task_10" >
+                <dc:Bounds x="1303" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_task_11" bpmnElement="task_11" >
+                <dc:Bounds x="1458" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_task_12" bpmnElement="task_12" >
+                <dc:Bounds x="1613" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+<bpmndi:BPMNShape id="Shape_task_13" bpmnElement="task_13" >
+                <dc:Bounds x="1768" y="60" width="100" height="80" />
+            </bpmndi:BPMNShape> 
+
+        
+    <bpmndi:BPMNShape id="_BPMNShape_endEvent_14" bpmnElement="endEvent_14"> 
+        <dc:Bounds x="1923" y="82" width="36" height="36" /> 
+        <bpmndi:BPMNLabel></bpmndi:BPMNLabel> 
+    </bpmndi:BPMNShape> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_startEvent_1_task_2_di" bpmnElement="Flow_startEvent_1_task_2"> 
+                <di:waypoint x="236" y="100" /><di:waypoint x="291" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="251" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_2_task_3_di" bpmnElement="Flow_task_2_task_3"> 
+                <di:waypoint x="391" y="100" /><di:waypoint x="446" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="406" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_3_task_4_di" bpmnElement="Flow_task_3_task_4"> 
+                <di:waypoint x="546" y="100" /><di:waypoint x="601" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="561" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_4_xor_5_di" bpmnElement="Flow_task_4_xor_5"> 
+                <di:waypoint x="701" y="100" /><di:waypoint x="756" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="716" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_xor_5_task_6_di" bpmnElement="Flow_xor_5_task_6"> 
+                <di:waypoint x="792" y="100" /><di:waypoint x="902" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="807" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_6_task_7_di" bpmnElement="Flow_task_6_task_7"> 
+                <di:waypoint x="1002" y="100" /><di:waypoint x="1057" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="1017" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_7_xor_9_di" bpmnElement="Flow_task_7_xor_9"> 
+                <di:waypoint x="1157" y="100" /><di:waypoint x="1212" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="1172" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_xor_5_xor_9_di" bpmnElement="Flow_xor_5_xor_9"> 
+                <di:waypoint x="774" y="118" /><di:waypoint x="774" y="232" /><di:waypoint x="1230" y="232" /><di:waypoint x="1230" y="118" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="789" y="217" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_xor_9_task_10_di" bpmnElement="Flow_xor_9_task_10"> 
+                <di:waypoint x="1248" y="100" /><di:waypoint x="1303" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="1263" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_10_task_11_di" bpmnElement="Flow_task_10_task_11"> 
+                <di:waypoint x="1403" y="100" /><di:waypoint x="1458" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="1418" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_11_task_12_di" bpmnElement="Flow_task_11_task_12"> 
+                <di:waypoint x="1558" y="100" /><di:waypoint x="1613" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="1573" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_12_task_13_di" bpmnElement="Flow_task_12_task_13"> 
+                <di:waypoint x="1713" y="100" /><di:waypoint x="1768" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="1728" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+            <bpmndi:BPMNEdge id="Flow_task_13_endEvent_14_di" bpmnElement="Flow_task_13_endEvent_14"> 
+                <di:waypoint x="1868" y="100" /><di:waypoint x="1923" y="100" /> 
+                <bpmndi:BPMNLabel>
+                    <dc:Bounds x="1883" y="85" width="40" height="15" />
+                </bpmndi:BPMNLabel>
+            </bpmndi:BPMNEdge> 
+
+        
+        </bpmndi:BPMNPlane> 
+      </bpmndi:BPMNDiagram> 
+    </bpmn:definitions>
