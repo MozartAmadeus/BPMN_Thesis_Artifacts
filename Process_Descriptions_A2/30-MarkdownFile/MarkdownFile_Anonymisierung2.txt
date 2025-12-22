@@ -1,0 +1,4 @@
+Zunächst wird ein A erstellt.
+Dieser muss bearbeitet werden.
+Danach kann über den `B´- Button eine beilibige D - Datei geholt und bearbeitet werden.
+ 

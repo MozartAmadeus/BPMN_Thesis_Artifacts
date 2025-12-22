@@ -1,0 +1,10 @@
+Ablauf:
+-	Neuer A
+-	Nachschauen/Definition B
+o	C - Terminal
+o	D
+o	Selbstständiges Nachschauen
+-	Bearbeitung E. Pro E F, ob es eine G ist oder nicht
+-	Ist H nicht im I dann fix keine G
+-	Ansonst H J oder K
+-	L

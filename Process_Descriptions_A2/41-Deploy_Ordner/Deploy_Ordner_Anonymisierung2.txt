@@ -1,0 +1,82 @@
+Das Erstellen eines A- B aus einer C- D auf eine E- D ist hier anhand einer mehr oder weniger zufällig ausgewählten F beschrieben.
+
+Der Vorgang läuft folgendermaßen ab:
+
+ 
+
+ 
+
+
+(1) Folgende Arbeiten im G:
+
+
+(1.1) Aufruf von Projekt -- A D
+
+
+ 
+
+(1.2) Bearbeiten des A- Formulars
+
+
+ 
+
+G -- folgendes ist einzutragen:
+D -- die D, für die der I "H1" wird
+Ziel-J -- Zur Auswahl stehen alle J der F, für die H2 >= H3 ist
+K-Einstellungen -- sind derzeit noch zu ignorieren.
+A -Einstellungen -- folgendes ist einzutragen:
+L -- ist jener lokale B, in den der zu bearbeitenden Programmstand vom G hingestellt wir
+ 
+
+
+(1.3) Folgende Buttons sind in folgender Abfolge auszulösen (bzw. nicht auszulösen):
+M N holen → holt den entsprechenden M -O aus dem N -- Anmerkung: 
+Anmerkung: Es kann auch eine ältere J bearbeitet werden, dann entfallen (1) und (2).
+Anmerkung: Dies erfolgt allerdings nicht in das entsprechende H23- Verzeichnis sondern nach H4 starten → bearbeitet die Programmstände für:
+O
+dauert lange -- wenn sich hier nichts geändert hat (Achtung: dies muss "Tod- sicher" so sein), kann der Schritt `H5´ entfallen und die beiden nachfolgenden Teilschritte händisch ausgeführt werden (nur für Wissende!) 
+Wenn nur eine Änderung im P erfolgt ist, ist es durchaus sinnvoll, auch das P händisch zu bearbeiten -- dies geht folgendermaßen
+im Q im Terminal: R
+der Stand liegt dann unter H6
+ACHTUNG: das nachfolgend unter S patchen Beschriebene beachten!
+T
+Der manuelle U (siehe oben) erfolgt folgendermaßen:
+
+
+ACHTUNG: der U muss aus dem temporären U-Verzeichnis (H7) heraus gemacht werden, außer es wird der geholte J bearbeitet. 
+V muss nicht auf J umgestellt werden, dies geschieht von selbst
+rechte Maustaste auf das farbig Eingekreiste
+die im Screenshot farbig hinterlegte Schaltfläche `H8´ auswählen
+den Assistenten jeweils mit `H9´ bzw. `H10´ weiter ausführen lassen
+dabei ist noch als L `H11´ + "H12" schreiben → in unserem Beispiel H13
+ACHTUNG: das nachfolgend unter S bearbeiten Beschriebene beachten!
+W
+Der händische U (siehe oben) erfolgt folgendermaßen:
+J -- H14 einstellen
+U über rechte Maustaste auf `H15´
+dort mit der rechten Maustaste auf `H16´
+Ins Verzeichnis H17 gehen
+den Inhalt in den Unterordner `W´ des im Feld Zielordner im G eingetragenen B bearbeiten
+ACHTUNG: das nachfolgend unter S bearbeiten Beschriebene beachten!
+S bearbeiten →
+ist noch nicht zuverlässig → nicht ausführen!
+stattdessen jeweils die S- Datei(en) aus dem L bearbeitet, sodass sie nicht verschwinden
+O (U) → den kompletten X- B bearbeiten
+T (U) → direkt im Zielverzeichnis T.S bearbeiten
+W → direkt im Zielverzeichnis S.xml bearbeiten
+Y- Z bearbeiten → 
+Anmerkung: Das H22 erfolgt nicht aus der H18 sondern aus den Y- Files im temporären M- Verzeichnis. (der nachfolgende Screenshot zeigt das Quell- Verzeichnis -- allerdings nicht im temporären G-A- Verzeichnis.)
+Dabei werden Files bearbeitet, es werden abhängig von der D Inhalte bearbeitet und es werden Bearbeite- Statements zum Bearbeiten von zu ersetzenden H19 bzw. H20 usw. bearbeitet.
+Folgende Z:
+Y- Z zum Abgleichen der G- und O- Datenbanktabellen:
+
+
+ 
+
+.Y- Z zum Abgleichen der H21- Datenbanken
+diese sind unter F bearbeiten beschrieben
+.
+
+.
+
+[A-B erstellen]

@@ -1,0 +1,13 @@
+•	Verarbeitung der Daten sortiert nach A,  B1 lt. C und D
+•	Ist ein E in die F zu nehmen:
+•	Bearbeiten des G
+	nur bei der 1. Position der Verarbeitung
+	Bearbeiten der H
+•	Bearbeiten des I
+	nur bei Wechsel des I (abhängig von Zeilenanzahl im M)
+•	Bearbeiten der J
+	entspricht einem Datensatz aus K
+•	Belegung L
+
+
+

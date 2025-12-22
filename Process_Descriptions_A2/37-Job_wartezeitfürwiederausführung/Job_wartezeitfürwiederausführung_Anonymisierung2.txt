@@ -1,0 +1,28 @@
+A für B definiert die Belegung von:
+
+C
+ 
+
+abhängig von D gilt der entsprechende Regelzweig:
+
+Zweig E, F
+
+das Attribut ist folgendermaßen belegt
+
+C = unbelegt
+
+Zweig G
+
+das Attribut ist folgendermaßen belegt
+
+C = Eingabewert
+
+Zweig H
+
+das Attribut ist folgendermaßen belegt
+
+C = Eingabewert mit Standardwert C
+
+sonst ist das Attribut folgendermaßen belegt
+
+C = C

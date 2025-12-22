@@ -1,0 +1,9 @@
+einlesen der A-Schnittstelle
+Pro Datensatz
+Anlage einer neuen Zeile im Teilbereich D des E/F
+bearbeiten des G bei der vorhergehenden Zeile (bei H)
+Erstellen eines I
+ wenn E/F nicht gefunden
+I by J Seite K
+ wenn durch sonstigen Fehler die Anlage nicht möglich war
+Endemeldung des N

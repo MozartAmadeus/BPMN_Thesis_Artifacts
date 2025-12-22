@@ -1,0 +1,1 @@
+Ist die Verbindung zu einer A vorhanden, erfolgt ein Hinweis und eine zusätzliche B, ob wirklich bearbeitet werden soll. Die C und die D werden bearbeitet.

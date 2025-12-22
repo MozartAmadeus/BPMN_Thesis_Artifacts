@@ -1,0 +1,7 @@
+A haben folgenden Lebensverlauf:
+
+A  wird erstellt und bearbeitet
+Alle A kommen in die B der C, wenn sie dort noch nicht sind.
+Sobald diese implementiert ist, stellt das Abstellen einer A in der B der C ein Ereignis für eine D (siehe dort) dar.
+Der E nimmt die A zur Kenntnis.
+Der E bearbeitet die A aus der B -- dadurch wird eine Anforderung an den F gerichtet, um die A selbst permanent zu bearbeiten.

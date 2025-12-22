@@ -1,0 +1,35 @@
+•	Wenn sich seit dem letzten A die B geändert hat C eines DS mit allen D der B
+•	Lesen des E1, E2, E3 und E4 des F
+•	Lesen von folgenden Daten des G
+•	E5
+•	E6 des G
+•	E7
+•	E8
+•	E9
+•	E10
+•	E11
+•	C von allen möglichen negativen H für den I/J
+•	Bei K wird der E12 lt. L/B als E34 ausgegeben
+•	H sind 0
+•	Q "E13"
+•	E14
+•	E15
+•	M muss lt. E16 belegt werden.
+•	C eines DS mit allen E17 (alle N, gültig zum E18, sortiert nach O und M)
+o	Suchen der entsprechenden P im L – DS
+	Ermitteln der Q des ersten Datensatzes mit dem entsprechenden R lt. obiger Sortierung (d.h. der beste V bestimmt dir zu verwendente Q)
+
+
+
+
+	Wenn der Datensatz lt. E18 + erster Datensatz mit entsprechenden R und Q – sortiert nach E20 > der E19 ist, wird diese als E19 verwendet.
+	Wenn die Ebene lt. I größer als die Anzahl der E21 des L und der R ist, wird die letzte E22 der R verwendet.
+•	C aller in Frage kommenden E33 
+	wird über KZ auf Q über E23, E3, E4, E24, E25 (lt. E26) bearbeitet.
+	Einschränkung über Von/Bis S und Von/Bis N
+	Die Reihenfolge ergibt sich aus [E27] + [E28]. 
+	Bei Aktion werden die E29 bearbeitet ([E30 <> 'e']), bei Eindeckung werden die T jedoch bearbeitet
+•	Wenn der H lt. U verdeckt ist, so wird dieser in den V eingerechnet (gerundet auf 2 Nachkommastellen)
+•	Der W wird für alle Datensätze ermittelt und im DS abgestellt. Dabei wird auch ein evt. X bearbeitet.
+•	Der DS wird nach Y, W und Q (damit wird, bei gleichem V) eine Z eine I oder E31 vorgezogen) sortiert.
+•	Die E32 werden mit dem ersten Datensatz belegt 

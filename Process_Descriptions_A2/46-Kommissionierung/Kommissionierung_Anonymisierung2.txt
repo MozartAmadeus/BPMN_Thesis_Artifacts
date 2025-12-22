@@ -1,0 +1,8 @@
+•	Bestätigung eines A zur B
+•	Auswählen aus den bestätigten A aus einer Liste am C Gerät löst den Ausdruck des D aus
+•	E vom D wird gelesen
+•	Es wird dem F der nächste zu bearbeitende G angezeigt und muss entweder durch das H des G oder durch händische I bearbeitet werden. Die J kann dabei bearbeitet werden. Der F arbeitete mit der K (L). Es muss zusätzlich die J in M angezeigt werden (farblich hervorheben), wenn mehr als 1 M zu bearbeiten sind. Die J kann vom F geändert werden. Wenn sich durch die Änderung die J nicht mehr durch die N teilen lässt, wird die M auf 1 geändert. Wird die O mit 0 bestätigt und es gibt noch einen anderen P (nicht im Q), so wird die O mit diesem P neu eingereiht.
+•	Ware wird in R zur S gebracht (B ist abgeschlossen)
+•	Die S liest den D und löst damit den T aus
+•	Durch das H des U, Eingabe des V pro W (X ist integriert), wird das Y ausgelöst und bearbeitet.
+

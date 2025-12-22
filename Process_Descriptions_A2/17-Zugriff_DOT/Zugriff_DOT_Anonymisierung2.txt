@@ -1,0 +1,13 @@
+Wenn im A- Bereich des B (Namespace C) auf eine bearbeitete D- Klasse oder einen bearbeiteten E- Wert, deren/dessen F G ist, online zugegriffen werden soll, ist folgendes Muster anzuwenden:
+
+Ad D:
+es wird unter H eine Basisklasse bearbeitet 
+Der Name ist die sprachliche Übersetzung des Namens des D
+z.B. H→ I
+die J Basisklasse des K (in unserem Bsp. H) wird mit dem Namen der Basisklasse (in unserem Bsp. I) bearbeitet
+Anmerkung: Wenn der bearbeiteten Klasse die Chance gegeben werden soll, eine L zu bearbeiten, ist diese in der Basisklasse M und zumindest N zu bearbeiten. Die Übersteuerung erfolgt dann mittels eines O-Files.
+In P wird ein Property (wenn wir beim Bsp. I bleiben) Q bearbeitet
+Über das Tag kann dann z.B. ein neues R bearbeitet werden.
+In der I- Klasse wird dann folgendes bearbeitet:
+ein ReadonlyField `S´  für das Attribut `I.T´ -- dieses wird im U bearbeitet
+ein Shared ReadonlyField `V´  -- dieses wird im W bearbeitet

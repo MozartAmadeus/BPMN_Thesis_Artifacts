@@ -1,0 +1,5 @@
+Die A steht dem B in der Form einer C zur Verfügung. Diese bearbeitet die vom B bearbeiteten Daten allerdings nicht selbst, sondern leitet diese sofort nach der Eingabe eines Feldes an einen D weiter. Dieser bearbeitet die Daten gemäß der E der A und und löst das F der G aus. Bsp.: Nach Eingabe der H wird der neue I gezeigt.
+Die J kann vom berechtigten B selbst verändert werden. Nachdem die E ja nicht durch die G bearbeitet wird, besteht auch nicht die Gefahr, das dem B dabei E- Fehler unterlaufen.
+Der D kann auch direkt von anderen O (M, N, ...) angesprochen werden.
+Die A basiert auf dem K. Dies ist für den B einerseits relevant, als dieser Umstand in der L immer wieder als bekannt vorausgesetzt wird und andererseits hat dies für den B einige Vorteile, die unter dem Begriff K erklärt sind.
+ 

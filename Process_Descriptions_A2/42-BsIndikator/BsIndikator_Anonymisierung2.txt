@@ -1,0 +1,17 @@
+A für B definiert die Belegung von:
+
+C
+ 
+
+abhängig von D gilt der entsprechende E:
+
+Zweig F, G
+
+die Attribute sind folgendermaßen belegt
+
+C = wahr
+Zweig H
+
+die Attribute sind folgendermaßen belegt
+
+C = falsch

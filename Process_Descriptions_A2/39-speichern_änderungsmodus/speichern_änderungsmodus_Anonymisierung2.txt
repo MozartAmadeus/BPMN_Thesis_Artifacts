@@ -1,0 +1,2 @@
+
+Beim A im B soll bei C von einem der D (E/F/G/H) eine Ja-/Nein-Abfrage kommen, wenn der gleiche I im selben J nochmal vorkommt ("Achtung: Sollen die anderen K in diesem L mit diesem I bearbeitet werden?". Bei "Ja" wird der E bei allen anderen K dieses I bearbeitet

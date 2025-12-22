@@ -1,0 +1,6 @@
+Wenn sich ein A an die B anmeldet, wird zunächst vom C eine D (also ein D-E) bearbeitet
+
+diese wird sofort in der F bearbeitet
+diese bleibt in der F bearbeitet bis sie durch einen G bearbeitet wird.
+Es sind also sowohl alle angemeldeten D als auch alle wieder abgemeldeten D bearbeitet.
+ 

@@ -1,0 +1,18 @@
+A für B definiert die Belegung von:
+
+C
+ 
+
+abhängig von D gilt der entsprechende G:
+
+Zweig E, F
+
+die Attribute sind folgendermaßen belegt
+
+C = G(I)
+
+Zweig H
+
+die Attribute sind folgendermaßen belegt
+
+C = unbelegt

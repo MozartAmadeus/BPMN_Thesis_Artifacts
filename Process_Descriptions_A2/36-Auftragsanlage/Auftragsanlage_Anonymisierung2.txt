@@ -1,0 +1,18 @@
+Ablauf A B C <--> D
+1)	Erstellen E "H" in C (L gehört weiter C)
+a.	Übertragen als G "H" zu D
+b.	D: mit der A wird der I auf "J" bearbeitet
+2)	Eingabe der K in C und anhaken ob der L ein "M" oder ein "N" ist
+a.	Daten werden zu D geschickt und dort eingelesen. Es wird ein O bearbeitet
+b.	"H" wird auf "P" / "Q" bearbeitet
+c.	L gehört ab jetzt D
+d.	wenn L, dann weiter bei Punkt 5 (=Fertigmeldung)
+3)	M) Bearbeitung in D und Auslösen Druck "F"
+a.	Übermittlung G an C, L gehört aber weiter D
+b.	Warten auf OK vom R; wenn dieses kommt, Umwandeln in "Q"; L gehört ab sofort C
+4)	Fertigmeldung durch C
+a.	Daten werden zu D geschickt und dort eingelesen. Es wird ein O bearbeitet.
+b.	L gehört ab jetzt D
+5)	L) Bearbeitung in D und Erstellung "S" 
+a.	Zurückmelden an C
+b.	Umsetzen T

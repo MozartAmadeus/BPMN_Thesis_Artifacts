@@ -1,0 +1,8 @@
+A
+ Für jede B muss ein Datensatz in der C
+bearbeitet bzw. verarbeitet werden.
+Im Falle des D müssen bereits getätigte Einträge bearbeitet werden.
+ Für jede E muss ein Datensatz in die F getan werden.
+Im Falle des D müssen bereits getätigte Einträge bearbeitet werden.
+ Am Ende der Verarbeitung muss das letzte G am H bearbeitet werden (J
+wird vor dem I der Daten bestimmt)

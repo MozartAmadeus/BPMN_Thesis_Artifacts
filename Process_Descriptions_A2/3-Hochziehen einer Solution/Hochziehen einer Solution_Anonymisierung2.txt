@@ -1,0 +1,6 @@
+Das A einer B auf eine neuere Version der C erfolgt folgendermaßen:
+
+Zunächst werden alle D, deren E kleiner als die eigene E sind betrachtet:
+Die D-Eigenschaften, werden jeweils durch die entsprechenden Werte aus der Datenbank der C neu bearbeitet..
+Noch nicht vorhandene D werden bearbeitet.
+Nicht mehr vorhandene D werden bearbeitet.

@@ -1,0 +1,8 @@
+A für B definiert die Belegung von:
+
+C
+ 
+
+das Attribut ist folgendermaßen belegt
+
+C = D()

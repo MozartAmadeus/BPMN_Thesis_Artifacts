@@ -1,0 +1,10 @@
+Phase1 = aktueller Stand:
+in einer A- Befüllten B können nur bearbeitete C angezeigt werden
+Phase 2:
+ein nicht bearbeitetes C kann in einer A befüllten B angezeigt werden, wenn folgende Bedingungen erfüllt sind:
+die D betrifft nur dieses C
+die D besteht ausschließlich aus einem E, dessen F G ausgehend vom H der B sind
+die I ist als J umgesetzt
+Phase 3:
+wie Phase 3, allerdings kann anstatt eines E mit den oben beschriebenen F eine K aus diesen F angegeben werden
+ 

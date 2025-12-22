@@ -1,0 +1,15 @@
+•	Bearbeiten der A sortiert nach B und C
+•	pro D im B:
+	Eintrag 0 bei offener E in [F]
+	Beginn G
+•	bei der 1. Zeile
+	H auf "I" setzen
+•	pro Zeile
+	Bearbeiten A
+•	nach dem letzen D im B
+	B bearbeiten
+•	nach dem letzen B
+	H auf "J" setzen
+•	Erstelle Endemeldung des K
+•	E bearbeiten
+	Ende/Bearbeiten G

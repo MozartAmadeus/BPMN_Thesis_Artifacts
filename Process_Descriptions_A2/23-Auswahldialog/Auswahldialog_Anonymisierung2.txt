@@ -1,0 +1,14 @@
+Verarbeitung der A sortiert nach B, C, D, E
+Aufruf des F für die ausgewählten A
+Je B:
+Bearbeiten aller beteiligten G
+Bearbeiten des B
+Verarbeiten aller A
+Ermittlung der H je A
+Bearbeiten des freigegebenen I in G und
+J
+Freigabe der Position
+Bearbeiten der K des B
+Verarbeitung der offenen L sortiert nach C, D, E
+Aufruf der M und N
+Endemeldung des O machen

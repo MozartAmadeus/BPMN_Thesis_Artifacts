@@ -1,0 +1,14 @@
+•	Erstellen einer eigenen Auswertungs - A, die nur die für die B - Auswertung notwendigen C in relativ flachen D enthält
+z.B. E direkt im F und nicht über eigen E D abgebildet.
+•	Ausgabe G läuft auf lokalen H Zentral I
+	Es werden immer alle C ausgegeben (Keine J)
+	Allgemeine K werden nur am L I ausgegeben
+•	M
+•	N
+•	O
+•	P
+•	Q
+•	R
+•	S (S1, S2, S3)
+	Immer alle vom laufenden und vom T
+•	Eingabe G bearbeitet den jeweiligen Bereich (U1, U2) und bearbeitet die C komplett neu.

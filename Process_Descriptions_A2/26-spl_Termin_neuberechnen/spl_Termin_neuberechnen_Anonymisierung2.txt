@@ -1,0 +1,10 @@
+Pro A mit offenen B (eine C):
+o	Bearbeite C
+o	Bearbeiten D
+o	Bearbeite alle offene E mit F -1 auf G (nicht bei H)
+o	Pro E in Reihenfolge: I1, I2, I3, I4
+	keine H, J werden als letzte bearbeitet
+	Danach in der Reihenfolge des letzten akzeptierten K
+	Danach nach L
+•	Bearbeiten der M und N des zurückgekommenen K
+o	Bearbeite C

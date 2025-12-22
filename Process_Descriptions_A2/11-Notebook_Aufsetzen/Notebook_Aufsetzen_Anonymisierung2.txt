@@ -1,0 +1,10 @@
+Wie bearbeite ich ein neues A
+1.) Installation B (Einplatzversion)
+2.) Einrichten einer leeren C-Datenbank
+3.) Bearbeiten eines Datensatzes in der E-Tabelle
+4.) Installation C
+5.) Eintagen des E-Codes in der F
+6.) Starten der Estbestückung für das neue A
+7.) Starten des Daten-Exportes für das neue A
+8.) Starten des C-Empangs am A
+a. macht auch evt. DB-Updates

@@ -1,0 +1,5 @@
+Für alle A git:
+Jedes B, das bearbeitet wird, wird einer C zugeordnet
+Jeder D, ist einer C zugeordnet
+Ist ein Element bereits einer anderen C zugeordnet, verschmelzen beide Cs, dies wird dem Anwender mitgeteilt
+Dazu ist es z.B. sinnvoll im Window-Title die C-ID anzuzeigen

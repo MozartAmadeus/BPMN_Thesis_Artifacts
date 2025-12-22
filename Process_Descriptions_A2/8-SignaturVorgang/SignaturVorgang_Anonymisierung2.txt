@@ -1,0 +1,1 @@
+A.B ist während eines C- Vorgangs mit der D, von der aus die C bearbeitet wird, belegt und sonst unbelegt

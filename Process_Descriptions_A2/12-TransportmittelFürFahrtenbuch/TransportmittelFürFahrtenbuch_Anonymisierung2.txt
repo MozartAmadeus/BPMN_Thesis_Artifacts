@@ -1,0 +1,13 @@
+A für B definiert die Belegung von:
+
+C
+ 
+
+wenn D = E, dann ist das Attribut folgendermaßen belegt
+
+C = unbelegt
+ 
+
+sonst ist das Attribut folgendermaßen belegt
+
+C = F

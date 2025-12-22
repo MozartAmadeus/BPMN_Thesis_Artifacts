@@ -1,0 +1,8 @@
+Für den A gibt es den sogenannten B:
+
+dieser kann bearbeitet und verarbeitet werden
+im B geschieht folgendes:
+Bevor ein C im D veränderbar ausgelesen wird, wird sein E in der F bearbeitet
+Danach werden jene seiner G, die noch nicht verändert worden sind, werden neu aus der F in den A bearbeitet.
+Anmerkung für Detailinteressierte:
+Wenn ein dadurch veränderter Wert zuvor bereits G bearbeitet worden ist, werden die davon betroffenen H nicht neu bearbeitet.

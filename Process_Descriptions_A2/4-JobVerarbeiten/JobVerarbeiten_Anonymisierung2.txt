@@ -1,0 +1,15 @@
+A ist eine im B angesiedelte C und führt die Verarbeitung eines D durch.
+
+
+ 
+Dies erfolgt in einer eigens dafür angelegten N in einem dedizierten E mit folgendem Ablauf:
+
+in einer F wird der übergebene D in den E geholt und D.G mit wahr belegt
+
+im H wird für die aktuelle Verarbeitung die A lt. D.I bearbeitet und dafür gesorgt, dass dies auch wieder bearbeitet wird
+
+damit werden J automatisch der A zugeordnet
+Für D.K.L wird im E M durchgeführt
+ 
+
+ 

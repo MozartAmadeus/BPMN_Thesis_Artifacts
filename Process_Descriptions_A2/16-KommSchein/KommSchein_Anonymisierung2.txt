@@ -1,0 +1,3 @@
+Die "angehakten" A werden zur Abwicklung in den aktuellen B bearbeitet. Ist der
+aktuelle B im Zustand C, werden die Positionen dem höchsten A
+zugeordnet, ansonsten wird der A 1 gemacht und der B in den Zustand C getan. Sind danach in einem Auftrag B eines angehakten A offene D ohne E vorhanden, werden diese ebenfalls in den aktuellen B getan. Diese Positionen werden keinem A zugeordnet.

@@ -1,0 +1,10 @@
+A sind im B folgendermaßen realisiert:
+
+ 
+
+Wenn für einen Bereich der C (z.B. ein D bzw. bestimmte E eines solchen) eine F benötigt wird, wird diesem Bereich ein G zugeteilt. Ein Bereich, dem kein solcher zugeteilt ist, erfordert keine F.
+Unter G.H ist erklärt, welchen Arten von Bereichen ein G zugeteilt werden kann und wie dies geschieht.
+Unter G.I der F ist erklärt, wie die F eines J für einen G ermittelt wird.
+ 
+
+ 

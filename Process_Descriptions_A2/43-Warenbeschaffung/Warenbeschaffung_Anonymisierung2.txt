@@ -1,0 +1,10 @@
+Folgende Reihenfolge bei der A:
+-	Schritt 1 Zuerst in anderen eigenen B derselben C schauen
+o	Achtung, es darf nur bis zum D (siehe oben) bestellt werden
+o	Reihenfolge der B ergibt sich aus deren E. Bearbeitet wird dort, wo am meisten vorhanden ist. Sortierung daher vorhanden <F abzüglich (G + H)>
+o	Voraussetzung dafür ist, dass die I komplett aus einer einzelnen B bearbeitbar ist.
+o	Bearbeiten auf mehrere J ist nicht erwünscht.
+
+-	Schritt 2: Bearbeitung aus der K (wenn nicht 1). B haben Zugriff auf den kompletten E
+o	Voraussetzung dafür ist, dass die L komplett verfügbar ist.
+-	Schritt 3 Bestellung beim M direkt (wenn nicht 2)

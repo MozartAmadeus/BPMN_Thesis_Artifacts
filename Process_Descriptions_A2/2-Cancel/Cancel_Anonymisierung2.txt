@@ -1,0 +1,7 @@
+Cancel:
+für die A folgendes durchführen -- dabei werden keine B bearbeiten!:
+
+alle C bearbeiten
+alle Änderungen in OneToMany- Lists bearbeiten
+alle Felder auf den alten Wert bearbeiten (DB- Wert noch überlegen)
+A bearbeiten

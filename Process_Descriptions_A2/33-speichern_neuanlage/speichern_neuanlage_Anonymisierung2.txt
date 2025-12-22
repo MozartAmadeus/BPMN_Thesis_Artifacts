@@ -1,0 +1,1 @@
+Beim A der B soll eine Ja-/Nein-Abfrage kommen, wenn der gleiche C mit einem anderen D/E/F/G im selben H bereits vorhanden ist ("Achtung: In diesem I ist dieser C bereits mit einem anderen D vorhanden (J). Trotzdem bearbeiten?". Bei "Nein" wird das K abgebrochen, bei "Ja" wird ganz normal bearbeitet.

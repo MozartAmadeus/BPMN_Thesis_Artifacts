@@ -1,0 +1,16 @@
+Der A ist eine Struktur im B und hat folgende Aufgaben:
+
+Bevor C verarbeitet werden können, müssen sie von ihrer D in einen A gebracht werden.
+Die E (E1, E2, E3) von F erfolgt zunächst im A.
+Wenn die C im A konsistent sind -- also der G entsprechen, können sie in der D bearbeitet werden.
+Alle H im A werden in einer Liste protokolliert -- diese heißt I.
+Detail für interessierte:
+dabei werden J nicht neu vergeben sondern wie bei der ursprünglichen H bearbeitet
+dazu "merkt" sich der A die Werte der vergebenen J
+Wenn eine H der C im A durchgeführt wird, werden alle noch nicht angewandten H der I vorher bearbeitet.
+Der gesamte A kann folgendermaßen behandelt werden:
+Bearbeiten
+Zurücksetzen
+ 
+
+ 
