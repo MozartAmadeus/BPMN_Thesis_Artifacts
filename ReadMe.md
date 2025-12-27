@@ -65,3 +65,16 @@ Contains the final outputs of the prediction experiments, including:
 
 These files correspond directly to the results tables and figures reported in the thesis.  
 No sensitive or confidential information is contained in this folder.
+
+---
+
+### `Process_Descriptions_A2/`
+
+Contains the **textual process descriptions** used as input for BPMN generation at anonymisation level **A2**.
+
+- Descriptions are fully anonymised  
+- Provided in plain text format  
+- Correspond to the BPMN models in `GeneratedModels_A2/`  
+
+These descriptions represent the **input side of the modelling pipeline** under the strongest anonymisation setting.  
+Lower anonymisation levels (A0, A1) are not included due to confidentiality constraints.
